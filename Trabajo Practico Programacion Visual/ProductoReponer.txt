@@ -1,0 +1,5 @@
+Codigo/   Descripcion/        Reponer/  A pagar/  
+1         prod1               45        6030.00   
+3         prod3               27        5103.00   
+7         prod7               5         500.00    
+12        prod12              26        780.00    

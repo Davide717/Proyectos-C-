@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="ModificacionFrame">
+		<title>Modificaciones</title>
+		<size>418,558</size>
+		<bg>#2D8FF2</bg>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Ingrese codigo:</label>
+			<pos>24,48</pos>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Ingrese stock maximo:</label>
+			<pos>24,144</pos>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Ingrese stock minimo:</label>
+			<pos>24,96</pos>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Ingrese precio:</label>
+			<pos>24,192</pos>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="tc1" member="yes">
+			<pos>192,48</pos>
+			<size>164,21</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="tc2" member="yes">
+			<pos>256,96</pos>
+			<size>120,21</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="tc3" member="yes">
+			<pos>264,144</pos>
+			<size>112,21</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="tc4" member="yes">
+			<pos>184,192</pos>
+			<size>164,21</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Modificar</label>
+			<pos>96,496</pos>
+			<size>80,24</size>
+			<bg>#80FFFF</bg>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Nuevo</label>
+			<pos>232,496</pos>
+			<size>80,24</size>
+			<bg>#80FFFF</bg>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="st1" member="yes">
+			<label></label>
+			<pos>40,248</pos>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+			<bitmap>C:\Users\lucas\OneDrive\Escritorio\imagenes tp\modificacion.jpg</bitmap>
+			<pos>104,296</pos>
+			<size>216,168</size>
+		</object>
+	</object>
+</wxsmith>
